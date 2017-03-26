@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/acitivity/AboutActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/acitivity/DealCards.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/acitivity/EffectService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/acitivity/GetIndex.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/acitivity/MainActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/acitivity/SoundService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/anim/MyTextView.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/viewpager/Guide.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/vongvia/viewpager/welcome.java" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

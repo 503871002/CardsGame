@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vongvia.cardsgame"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.vongvia.acitivity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+             
+      
+           
+        </activity>
+        <activity
+            android:name="com.vongvia.acitivity.AboutActivity"
+            android:label="@string/title_activity_about" 
+            android:theme="@android:style/Theme.Dialog">
+    
+        </activity>
+          <activity
+            android:name="com.vongvia.viewpager.Guide"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="landscape">
+        </activity>
+        <activity android:name="com.vongvia.viewpager.welcome"
+              android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.vongvia.acitivity.SoundService"/>     
+         <service android:name="com.vongvia.acitivity.EffectService"/>     
+    </application>
+     
+
+
+</manifest>
